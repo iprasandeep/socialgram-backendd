@@ -11,6 +11,7 @@ const authRoute = require('./routes/auth.js')
 dotenv.config();
 
 // mongo db connection
+// added new 
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
